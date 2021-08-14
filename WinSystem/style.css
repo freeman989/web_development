@@ -1,0 +1,162 @@
+/*Главная страница*/
+
+BODY {
+    background: rgb(9, 149, 241);
+    /* Цвет фона веб-страницы */
+}
+
+A {
+    color: white;
+    /* Цвет ссылок */
+}
+
+A:visited {
+    color: aqua;
+    /* Цвет посещенных ссылок */
+}
+
+A:hover {
+    color: red;
+    /* Цвет ссылок при наведении на них мышью*/
+}
+
+.header {
+    max-width: 1461px;
+    /*Ширина картинки бэкграунда.*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 13px;
+    position: fixed;
+    top: -1%;
+    left: -1%;
+    right: -1%;
+    z-index: 5;
+    background-color: rgba(0, 0, 204, 0.7);
+}
+
+#site_name {
+    width: 20%;
+    font-size: auto;
+    color: white;
+    padding-left: 15%;
+    /*background-color: red;*/
+    float: left;
+}
+
+.navigator {
+    width: 60%;
+    font-size: auto;
+    /*background-color: green;*/
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#main {
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#all_products {
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#besplatnye {
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#platnye {
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#contacts {
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#head_background {
+    position: absolute;
+    background: url(img/system_bg.jpg) no-repeat center;
+    top: -40px;
+    left: -1%;
+    right: -1%;
+    min-width: 1300px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index_text_content {
+    position: relative;
+    top: 603px;
+    right: 231px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text_content {
+    position: relative;
+    top: 55px;
+    right: 231px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contayner_nazvaniya {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 110px;
+    background-color: blue;
+    max-width: 1461px;
+    min-width: 720px;
+}
+
+.index_post {
+    padding: 10px;
+    padding-left: 110px;
+    padding-bottom: 40%;
+    background-color: white;
+    position: relative;
+    top: -20px;
+}
+
+.post {
+    padding: 10px;
+    padding-left: 110px;
+    padding-bottom: 97%;
+    background-color: white;
+    position: relative;
+    top: -20px;
+}
+
+.footer {
+    /*clear: both;*/
+    position: absolute;
+    top: 1100px;
+    left: -1%;
+    right: -1%;
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+    max-width: 1461px;
+    height: 80px;
+}
+
+.footer_content {
+    font-size: 18px;
+    color: white;
+    margin-right: 5%;
+    padding-left: 10%;
+}
